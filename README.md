@@ -1,167 +1,174 @@
-# Simple-gallery Responsive Template
+<!-- the example
+<div class="store1">
+            <a href="https://forms.gle/v1fAmSASRScSXThv6" ><img id="img1" src="Resources\174861.png" alt="Image not loaded!"></a>
+            <h2 id="title1">Title</h2>
+            <h4 id="desc1">Description</h4>
+            <div class="buy1">
+                
+                <a id="hyperlink1" href="https://forms.gle/v1fAmSASRScSXThv6">Buy with PayPal</a>
+            </div>
+            <div class="div2">
+                
+            </div>
+        </div>
 
-Responsive gallery one-page template template, designed and coded by [Maxim Orlov](https://github.com/orlovmax). 
-
-Demo: [http://website-templates.github.io/simple-gallery_responsive-template](http://website-templates.github.io/simple-gallery_responsive-template/)
-
-![Mockup demo](screenshots/pic.jpg)
-Product mockup created with [http://magicmockups.com/](http://magicmockups.com/)
-
-## Contents
-* [Folder structure](#folder-and-file-structure)
-* [Requirements](#requirements)
-    - [Editorconfig](#editorconfig)
-* [Site configuration](#site-configuration)
-* [Tasks](#tasks)
-    - [Start](#start)
-    - [Dev](#dev)
-    - [Build](#build)
-    - [Rebuild](#rebuild)
-    - [Server](#server)
-* [Live reload](#live-reload)
-* [License](#license)
-
-## Folder and file structure
-```
-./
-├── .editorconfig
-├── README.md
-├── automation.sh
-|
-├── gulp_tasks/                                * gulp tasks
-|   ├── config/                                * gulp tasks config
-│   |   ├── paths.js
-│   |   ├── settings.js
-│   |   └── aliases.js
-│   |
-|   └── task.js
-│
-├── gulpfile.js
-├── package.json
-|
-├── screenshots/                               * responsive test screenshots
-|
-├── dev/                                       * site source
-│   ├── images/                                * image sources
-|   │
-│   ├── pug/                                   * templates
-|   |   ├── blocks/                            * blocks library
-|   │   |   └── block.pug
-|   │   ├── helpers/                           * helper mixins
-|   │   ├── vendor/                            * third-party code
-|   │   ├── layouts/                           * page layouts
-|   │   └── pages/                             * main pages templates
-|   │
-│   ├── js/                                    * compiled and source js
-|   |   ├── vendor/                            * vendor scripts library
-|   |   ├── lib/                               * site scripts library
-|   │   ├── head.js                            * head scripts
-|   │   └── body.js                            * vendor scripts
-|   │
-|   ├── stylus/                                * stylus preprocessor styles
-|   |   ├── blocks/                            * blocks library
-|   │   |   └── block.styl
-|   │   ├── helpers/                           * mixins and vars
-|   │   ├── vendor/                            * third-party code
-|   │   ├── custom.styl
-|   │   ├── noscript.styl
-|   │   └── screen.styl
-|   │
-│   ├── helpers/                               * helper files
-|   |   ├── favicon.ico
-|   |   └── .htaccess
-|   │
-│   ├── fonts/                                 * font sources
-|   │
-│   └── data/                                  * configs and data for templates
-│
-└── build/                                     * built source
-    ├── index.html
-    ├── page.html
-    |
-    └── static/                                * static assets
-        ├── css/                               * minified styles
-        |
-        ├── images/                            * minified images
-        │
-        ├── js/                                * minified assembled js
-        |
-        └── fonts/                             * @font-face-ready webfonts
-
-```
-
-## Requirements:
-- [Node.js](http://nodejs.org/)
-- Build sytem: [Gulp](http://gulpjs.com/)
-- Optionally: [Editorconfig](http://editorconfig.org/)
-
-#### Editorconfig
-This project have .editorconfig file at the root that used by your code editor with editorconfig plugin. It describes codestyle like indent style, trailing whitespaces etc. See more details [here](http://editorconfig.org/)
-
-## Site configuration
-This boilerplate use Pug templates with external data configs. 
-Main settings can be found in `dev/data/config.json` file. And they're available for usage in templates with `config.key-name`
-
-## Tasks
-Here comes groups of gulp tasks with some explanations
-
-#### Start 
-Install bower dependencies and place them to dev folders.
-Gulp: `gulp start`
-
-* Install bower components
-* Copy bower components to dev folder
-* Remove gitkeep files
-
-#### Dev
-Dev task with static server.
-Gulp: `gulp dev`
-
-* Compile Stylus stylesheets
-* Add vendor prefixes in css
-* Combine media queries in css files
-* Compile Pug templates
-* Sync helpers and other assets
-* Sync images
-* Run BrowserSync static server with live reload using 
-* Watch for changes and run dev task
-
-
-#### Build 
-Build task.
-Gulp: `gulp build`
-
-* Minify images
-* Minify javascript files
-* Minify stylesheets
-* Minify html
-* Run BrowserSync static server 
-
-
-#### Rebuild 
-Regenerate and build project by running all tasks.
-Gulp: `gulp rebuild`
-
-* Concatenate javascripts
-* Compile Stylus stylesheets
-* Add vendor prefixes in css
-* Combine media queries in css files
-* Compile Pug templates
-* Sync helpers and other assets
-* Sync images
-* Minify images
-* Minify javascript files
-* Minify stylesheets
-* Minify html
-
-#### Server 
-Run server without watching for changes.
-Gulp: `gulp server`
-
-* Run BrowserSync static server
-
-## Live reload 
-This project uses BrowserSync as static server with enabled and configured live reload option.
-
-## License
-[MIT](https://github.com/website-templates/simple-gallery_responsive-template/blob/master/LICENSE.md)
+.store1{
+        background-color: rgb(16, 146, 189);
+        position: relative;
+        width: 400px;
+        height: 400px;
+        left: 17px;
+        top: 30px;
+        border-radius: 5px;
+        margin: 0%;
+    }
+    #title1{
+        color: white;
+        font-family: 'Fredoka', sans-serif;
+        position: relative;
+        left: 150px;
+        top: -40px;
+        margin: 0%;
+    }
+    #desc1{
+        color: white;
+        font-family: 'Fredoka', sans-serif;
+        position: relative;
+        left: 140px;
+        top: -20px;
+        margin: 0%;
+    }
+    #hyperlink1{
+        color: rgb(255, 255, 255);
+        font-family: 'Fredoka', sans-serif;
+        text-decoration:none;
+        position: relative;
+        top: 15px;
+        left: 25px;
+        font-size: 30px;
+        margin: 0%;
+    }
+    .buy1{
+        background-color: deepskyblue;
+        position: relative;
+        width: 370px;
+        top: 210px;
+        left: 14px;
+        height: 70px;
+        border-radius: 5px;
+        margin: 0%;
+    }
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="Resources/DZ.png" type="image/gif">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danyzimo's store</title>
+</head>
+<body>
+    <div class="div1">
+        <div class="name">
+            <h1 id="t1">Danyzimo's Store</h1>
+        </div>
+        <div class="store1">
+            <a href="https://forms.gle/KV84dJeoq4gBEr7PA" ><img id="img1" src="Resources\174861.png" alt="Image not loaded!"></a>
+            <h2 id="title1">Jump Power</h2>
+            <h4 id="desc1">This Jump Power script includes just jumppower :)</h4>
+            <div class="buy1">
+                
+                <a id="hyperlink1" href="https://forms.gle/KV84dJeoq4gBEr7PA">Buy with PayPal</a>
+            </div>
+            <div class="div2">
+                
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+  #img1{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 300px;
+        top: 320px;
+        z-index: 2;
+    }
+    .div1{
+        position: relative;
+        width: 1890px;
+        height: 900px;
+        border-radius: 0.3%;
+        background-color: deepskyblue;
+    }
+    .name{
+        position: relative;
+        width: 1850px;
+        height: 50px;
+        bottom: -19px;
+        left: 17px;
+        border-radius: 5px;
+        background-color: rgb(16, 146, 189);
+    }
+    #t1{
+        font-family: 'Fredoka', sans-serif;
+        text-align: center;
+        position: relative;
+        top: 5px;
+        color: white;
+        
+    }
+    .store1{
+        background-color: rgb(16, 146, 189);
+        position: relative;
+        width: 400px;
+        height: 400px;
+        left: 17px;
+        top: 30px;
+        border-radius: 5px;
+        margin: 0%;
+    }
+    #title1{
+        color: white;
+        font-family: 'Fredoka', sans-serif;
+        position: relative;
+        left: 120px;
+        top: -40px;
+        margin: 0%;
+    }
+    #desc1{
+        color: white;
+        font-family: 'Fredoka', sans-serif;
+        position: relative;
+        left: 20px;
+        top: -20px;
+        margin: 0%;
+    }
+    #hyperlink1{
+        color: rgb(255, 255, 255);
+        font-family: 'Fredoka', sans-serif;
+        text-decoration:none;
+        position: relative;
+        top: 15px;
+        left: 25px;
+        font-size: 30px;
+        margin: 0%;
+    }
+    .buy1{
+        background-color: deepskyblue;
+        position: relative;
+        width: 370px;
+        top: 210px;
+        left: 14px;
+        height: 70px;
+        border-radius: 5px;
+        margin: 0%;
+    }
+    
+    
+</style>
+</html>
