@@ -1,174 +1,36 @@
-<!-- the example
-<div class="store1">
-            <a href="https://forms.gle/v1fAmSASRScSXThv6" ><img id="img1" src="Resources\174861.png" alt="Image not loaded!"></a>
-            <h2 id="title1">Title</h2>
-            <h4 id="desc1">Description</h4>
-            <div class="buy1">
-                
-                <a id="hyperlink1" href="https://forms.gle/v1fAmSASRScSXThv6">Buy with PayPal</a>
-            </div>
-            <div class="div2">
-                
-            </div>
-        </div>
-
-.store1{
-        background-color: rgb(16, 146, 189);
-        position: relative;
-        width: 400px;
-        height: 400px;
-        left: 17px;
-        top: 30px;
-        border-radius: 5px;
-        margin: 0%;
-    }
-    #title1{
-        color: white;
-        font-family: 'Fredoka', sans-serif;
-        position: relative;
-        left: 150px;
-        top: -40px;
-        margin: 0%;
-    }
-    #desc1{
-        color: white;
-        font-family: 'Fredoka', sans-serif;
-        position: relative;
-        left: 140px;
-        top: -20px;
-        margin: 0%;
-    }
-    #hyperlink1{
-        color: rgb(255, 255, 255);
-        font-family: 'Fredoka', sans-serif;
-        text-decoration:none;
-        position: relative;
-        top: 15px;
-        left: 25px;
-        font-size: 30px;
-        margin: 0%;
-    }
-    .buy1{
-        background-color: deepskyblue;
-        position: relative;
-        width: 370px;
-        top: 210px;
-        left: 14px;
-        height: 70px;
-        border-radius: 5px;
-        margin: 0%;
-    }
--->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="shortcut icon" href="Resources/DZ.png" type="image/gif">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danyzimo's store</title>
+	<title>Jcw87's Web Projects</title>
+	<meta name="description" content="Super Mario Bros (World 1) Undertale Genocide Boss Fight (Spoilers)"/>
 </head>
 <body>
-    <div class="div1">
-        <div class="name">
-            <h1 id="t1">Danyzimo's Store</h1>
-        </div>
-        <div class="store1">
-            <a href="https://forms.gle/KV84dJeoq4gBEr7PA" ><img id="img1" src="Resources\174861.png" alt="Image not loaded!"></a>
-            <h2 id="title1">Jump Power</h2>
-            <h4 id="desc1">This Jump Power script includes just jumppower :)</h4>
-            <div class="buy1">
-                
-                <a id="hyperlink1" href="https://forms.gle/KV84dJeoq4gBEr7PA">Buy with PayPal</a>
-            </div>
-            <div class="div2">
-                
-            </div>
-        </div>
-    </div>
+	<h1>Game Clones</h1>
+	<a href="./c2-smb1/">Super Mario Bros (World 1)</a><br/>
+	<a href="./c2-sans-fight/">Undertale Genocide Boss Fight (Spoilers)</a><br/>
+	<h1>Other Projects</h1>
+	<a href="./ship-shape/">Ship Shape Anxiety Simulator</a><br/>
+	<a href="./analog-clock">Analog Clock</a><br/>
+	<a href="./c2-trace-test">Construct 2 Trace Plugin Test</a>
+	<a href="https://drive.google.com/file/d/0B40Xy8VSKqoOUnRxZ3hyaDlrajQ/view?usp=sharing&resourcekey=0-Vte11xH_fpHOdAytCo6NYg">(capx)</a>
+	<a href="https://drive.google.com/file/d/0B40Xy8VSKqoOTnE3bC1xdlEwVEE/view?usp=sharing&resourcekey=0-iqlE98_7mDhZInXkO63jRg">(plugin)</a><br/>
+	<a href="./webgl"/>WebGL Test</a><br/>
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			},
+			i[r].l = 1 * new Date();
+			a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-78361109-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </body>
-<style>
-    
-  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
-  #img1{
-        width: 50px;
-        height: 50px;
-        position: relative;
-        left: 300px;
-        top: 320px;
-        z-index: 2;
-    }
-    .div1{
-        position: relative;
-        width: 1890px;
-        height: 900px;
-        border-radius: 0.3%;
-        background-color: deepskyblue;
-    }
-    .name{
-        position: relative;
-        width: 1850px;
-        height: 50px;
-        bottom: -19px;
-        left: 17px;
-        border-radius: 5px;
-        background-color: rgb(16, 146, 189);
-    }
-    #t1{
-        font-family: 'Fredoka', sans-serif;
-        text-align: center;
-        position: relative;
-        top: 5px;
-        color: white;
-        
-    }
-    .store1{
-        background-color: rgb(16, 146, 189);
-        position: relative;
-        width: 400px;
-        height: 400px;
-        left: 17px;
-        top: 30px;
-        border-radius: 5px;
-        margin: 0%;
-    }
-    #title1{
-        color: white;
-        font-family: 'Fredoka', sans-serif;
-        position: relative;
-        left: 120px;
-        top: -40px;
-        margin: 0%;
-    }
-    #desc1{
-        color: white;
-        font-family: 'Fredoka', sans-serif;
-        position: relative;
-        left: 20px;
-        top: -20px;
-        margin: 0%;
-    }
-    #hyperlink1{
-        color: rgb(255, 255, 255);
-        font-family: 'Fredoka', sans-serif;
-        text-decoration:none;
-        position: relative;
-        top: 15px;
-        left: 25px;
-        font-size: 30px;
-        margin: 0%;
-    }
-    .buy1{
-        background-color: deepskyblue;
-        position: relative;
-        width: 370px;
-        top: 210px;
-        left: 14px;
-        height: 70px;
-        border-radius: 5px;
-        margin: 0%;
-    }
-    
-    
-</style>
 </html>
