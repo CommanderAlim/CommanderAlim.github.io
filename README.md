@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!Doggy>
 <html>
 <head>
 	<title>Commander's Web Projects</title>
