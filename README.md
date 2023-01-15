@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jcw87's Web Projects</title>
+	<title>Commander's Web Projects</title>
 	<meta name="description" content="Super Mario Bros (World 1) Undertale Genocide Boss Fight (Spoilers)"/>
 </head>
 <body>
